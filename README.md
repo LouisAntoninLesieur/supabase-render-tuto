@@ -1,5 +1,7 @@
 # Basic CRUD API with Supabase and Render
 
+![Supabase & Render logos](https://i.imgur.com/k494gCD.png)
+
 This project is a basic CRUD API that allows managing countries and cities. It is designed for educational purposes to demonstrate how to host a database and an API using Supabase and Render.
 
 ## Prerequisites
