@@ -1,0 +1,28 @@
+{
+  "name": "supabase-render-repo",
+  "version": "1.0.0",
+  "description": "This repo aims to be used to try and test the 'host your first API using Supabase and Render' tutorial on Medium. Thank you for following it if you're reading this.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install",
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "tutorial",
+    "supabase",
+    "render",
+    "junior",
+    "host"
+  ],
+  "author": "Louis-Antonin Lesieur",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5"
+  }
+}
