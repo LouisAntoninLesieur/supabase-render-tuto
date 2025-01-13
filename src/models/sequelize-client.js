@@ -1,7 +1,9 @@
 import 'dotenv/config';
 import { Sequelize } from 'sequelize';
 
-export const sequelize = new Sequelize(process.env.PG_URL, {
+const pgUrl = process.env.PG_URL;
+
+export const sequelize = new Sequelize(pgUrl, {
   dialect: "postgres",
 	define: {
 		createdAt: "created_at",
